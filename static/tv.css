@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: #4e7f88; 
+}
+
+/* tv */
+
+#tv {
+    background: #000000;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+#container-tv {
+    width: 900px;
+    height: 600px;
+    display: flex;
+}
+
+#tv > #tela {
+    width: 869px;
+    height: 558px;
+    background: #343837;
+    position: absolute;
+    bottom: 26px;
+    left: 17px;
+    border-radius: 4px;
+}
+
+#tv > .pes > .logo {
+    background: #D04172;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    top: -10px;
+    left: 16px;
+}
+
+#tv > .pes {
+    background: #000000;
+    border-radius: 12px;
+    width: 55px;
+    height: 47px;
+    position: absolute;
+    bottom: -39px;
+    left: 425px;
+}
+
+#tv > .pes > .base {
+    background: #000000;
+    position: absolute;
+    left: -173px;
+    bottom: -8px;
+    width: 404px;
+    height: 22px;
+    border-radius: 50% 50% 0 0;
+    
+}
+
+/* controle */
+
+#container-controle {
+    background: rgb(61, 60, 60);
+    width: 60px;
+    height: 140px;
+    display: flex;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#controle > input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    background: #922e2e;
+    border-radius: 50%;
+}
