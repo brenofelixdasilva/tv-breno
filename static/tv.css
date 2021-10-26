@@ -20,14 +20,14 @@ body {
 }
 
 #container-tv {
-    width: 900px;
-    height: 600px;
+    width: 600px;
+    height: 362px;
     display: flex;
 }
 
 #tv > #tela {
-    width: 869px;
-    height: 558px;
+    width: 566px;
+    height: 320px;
     background: #343837;
     position: absolute;
     bottom: 26px;
@@ -38,29 +38,29 @@ body {
 #tv > .pes > .logo {
     background: #D04172;
     position: absolute;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     top: -10px;
-    left: 16px;
+    left: 12px;
 }
 
 #tv > .pes {
     background: #000000;
     border-radius: 12px;
-    width: 55px;
+    width: 43px;
     height: 47px;
     position: absolute;
     bottom: -39px;
-    left: 425px;
+    left: 281px;
 }
 
 #tv > .pes > .base {
     background: #000000;
     position: absolute;
-    left: -173px;
+    left: -131px;
     bottom: -8px;
-    width: 404px;
+    width: 304px;
     height: 22px;
     border-radius: 50% 50% 0 0;
     
@@ -81,6 +81,34 @@ body {
     width: 20px;
     height: 20px;
     appearance: none;
-    background: #922e2e;
+    background: #db1a1a;
     border-radius: 50%;
+}
+
+#controle > #btn2 {
+    background: yellow;
+}
+
+#controle > #btn3 {
+    background: purple;
+}
+
+#controle > #btn4 {
+    background: green;
+}
+
+#controle > #btn5 {
+    background: blue;
+}
+
+#controle > #btn6 {
+    background: rgb(243, 135, 47);
+}
+
+#controle > #btn7 {
+    background: black;
+}
+
+#controle > #btn8 {
+    background: rgb(146, 46, 46);
 }
